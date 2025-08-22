@@ -1,17 +1,20 @@
 # GraphPlotter
-
+![last commit](https://img.shields.io/github/last-commit/USERNAME/REPO)
 複数のデータセットに対して **最小二乗法** による回帰直線・多項式フィットを行い、同一グラフ上に描画する MATLAB スクリプト 
 <br>
 ※ グラフの書式は某大学の実験レポートのレイアウト指定に準じている
-<br>
-GraphProtter.mと同じフォルダ内に実験データを入力したCSVファイルと出力データを格納するresultsフォルダを作成する。
-<br>
-MATLAB上でGraphProtter.mを実行する
 
 ![出力されるグラフ(サンプル)](results/fit_図1_1_サンプル_20250822_104312.png)
 <br>*出力されるグラフ(サンプル)*
 ![実行後画面](results/実行後画面(サンプル).png)
 *実行時のMATLAB画面*
+<br>
+- GraphProtter.mと同じフォルダ内に実験データを入力したCSVファイルと出力データを格納するresultsフォルダを作成
+- この際,CSVにヘッダー名はつけず数値のみ入力すること
+- MATLAB上でGraphProtter.mを実行する
+- コマンドウィンドウ上の指示に従って入力していく
+- qボタンを押せばプログラムが終了する. Ctrl+Cで強制終了
+- resultsフォルダ内にグラフのpngファイルと,各種計算データが格納されたtxtファイルが出力される
 
 ---
 
