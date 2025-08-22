@@ -1,5 +1,6 @@
 # GraphPlotter
-![last commit](https://img.shields.io/github/last-commit/USERNAME/REPO)
+![Last Commit](https://img.shields.io/github/last-commit/97kuek/GraphPlotter?label=最終更新&style=flat-square)
+<br>
 複数のデータセットに対して **最小二乗法** による回帰直線・多項式フィットを行い、同一グラフ上に描画する MATLAB スクリプト 
 <br>
 ※ グラフの書式は某大学の実験レポートのレイアウト指定に準じている
